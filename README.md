@@ -38,22 +38,6 @@ ruff check .
 ```
 ---
 
-## 🔄 Pre-commit Hook Setup (Optional)
-
-Enable automatic checks before every commit:
-```bash
-pre-commit install
-```
-
-> Every time you commit, Ruff will check lint and formatting.
-> If any checks fail, the commit is blocked until issues are resolved.
-
-To manually run the hooks (e.g. after cloning):
-```bash
-pre-commit run --all-files
-```
----
-
 ## 📁 Project Structure
 ```
 agent-0.1/
