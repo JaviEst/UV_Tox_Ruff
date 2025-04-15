@@ -4,23 +4,22 @@ A modern Python project setup using:
 - [`tox`](https://tox.readthedocs.io/) – for test, lint, and format automation
 - [`uv`](https://github.com/astral-sh/uv) – for fast dependency installation and environment management
 - [`ruff`](https://docs.astral.sh/ruff/) – for linting and formatting
-- [`pre-commit`](https://pre-commit.com/) – to automatically run checks before every commit (optional)
 ---
 
 ## 🧪 Run Tasks with Tox
 ### ✅ Run tests
 ```bash
-tox -e test
+uv run tox -e test
 ```
 
 ### 🔍 Run Ruff linter
 ```bash
-tox -e lint
+uv run tox -e lint
 ```
 
 ### 🎨 Check formatting with Ruff
 ```bash
-tox -e format
+uv run tox -e format
 ```
 ---
 
@@ -29,12 +28,12 @@ If you want to run Ruff directly:
 
 ### Format the code
 ```bash
-ruff format .
+uv run ruff format .
 ```
 
 ### Check for lint issues
 ```bash
-ruff check .
+uv run ruff check .
 ```
 ---
 
@@ -53,8 +52,6 @@ agent-0.1/
 ## ✅ Add More Tox Environments
 You can expand the `tox.ini` file to include:
 - Integration or end to end test suites
-
-Tox will help you organize and automate it all.
 ---
 
 ## 🧊 Using UV
@@ -67,7 +64,6 @@ This project uses [`uv`](https://github.com/astral-sh/uv) for:
 ## 🔗 Useful Links
 - [Tox Documentation](https://tox.readthedocs.io/)
 - [Ruff Documentation](https://docs.astral.sh/ruff/)
-- [Pre-commit Hooks](https://pre-commit.com/)
 - [UV Project](https://github.com/astral-sh/uv)
 ---
 
