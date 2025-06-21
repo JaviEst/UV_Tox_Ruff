@@ -1,5 +1,4 @@
 
-# Agent-0.1
 A modern Python project setup using:
 - [`tox`](https://tox.readthedocs.io/) – for test, lint, and format automation
 - [`uv`](https://github.com/astral-sh/uv) – for fast dependency installation and environment management
